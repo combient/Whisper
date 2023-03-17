@@ -1,4 +1,6 @@
-# I simple colab notebook to use OpenAI's Whisper model
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/combient/Whisper/blob/main/WhisperVideoDrive.ipynb)
+
+# A simple colab notebook to use OpenAI's Whisper model
 
 Forked from https://github.com/AndrewMayneProjects/Whisper
 This is not production-ready code. It is a proof of concept.
@@ -16,7 +18,7 @@ with timestamps for each sentence.
 a video from the `/WhisperVideo/ProcessedVideo` directory by moving it back to 
 the `/WhisperVideo` folder and deleting the files under `JsonFiles`, `TextFiles`and `AudioFiles`).
 
-2. Open the notebook in Google Colab and run all the cells.
+2. Open the notebook in [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/combient/Whisper/blob/main/WhisperVideoDrive.ipynb) and run all the cells.
 
 3. Check the `/WhisperVideo/JsonFiles` folder for the json file with the transcription.
 
