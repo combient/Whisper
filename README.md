@@ -10,6 +10,16 @@ This connects to your Google Drive and will batch process video files uploaded t
 It will generate a json file with the transcription divided up according to punctuation and
 with timestamps for each sentence.
 
+### How to use
+
+1. Upload a video to your Google Drive in the `/WhisperVideo folder` ( you can also reuse
+a video from the `/WhisperVideo/ProcessedVideo` directory by moving it back to 
+the `/WhisperVideo` folder and deleting the files under `JsonFiles`, `TextFiles`and `AudioFiles`).
+
+2. Open the notebook in Google Colab and run all the cells.
+
+3. Check the `/WhisperVideo/JsonFiles` folder for the json file with the transcription.
+
 ### Example json output
 
 ````json
